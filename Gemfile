@@ -8,11 +8,13 @@ gem 'coffee-rails', '~> 4.0.0'
 
 gem 'jquery-rails', '~> 3.1.0'
 gem 'jbuilder', '~> 2.0'
+gem 'puma'
 
 # Ember
 gem 'ember-rails'
 gem 'ember-source', '~> 1.8.1'
 gem 'emblem-rails'
+
 
 
 group :development, :test do
@@ -23,7 +25,7 @@ group :development, :test do
   gem 'jazz_hands', github: 'nixme/jazz_hands', branch: 'bring-your-own-debugger'
   gem 'pry-byebug', '~> 1.3.2' # behind latest version b/c jazz_hands needs pry 0.9 and this is the only way to have them not conflict.
   gem 'timecop', '~> 0.7.1'
-  gem 'faker', '~> 1.4.3'
+  gem 'ffaker'
   gem 'factory_girl_rails', '~> 4.4.1'
 end
 
