@@ -122,8 +122,8 @@ GEM
       handlebars-source (> 1.0.0)
       jquery-rails (>= 1.0.17)
       railties (>= 3.1)
-    ember-source (1.9.1)
-      handlebars-source (~> 2.0)
+    ember-source (1.8.1)
+      handlebars-source (~> 1.0)
     emblem-rails (0.2.2)
       barber-emblem (~> 0.1.1)
       ember-rails (>= 0.14.0)
@@ -158,7 +158,7 @@ GEM
       jslint_on_rails (>= 1.0.6)
     haml (4.0.6)
       tilt
-    handlebars-source (2.0.0)
+    handlebars-source (1.3.0)
     highline (1.6.21)
     hike (1.2.3)
     hirb (0.7.3)
@@ -343,9 +343,9 @@ DEPENDENCIES
   capybara-webkit
   coffee-rails (~> 4.0.0)
   database_cleaner (~> 1.3.0)
-  ember-rails (~> 0.16.1)
-  ember-source (~> 1.9.1)
-  emblem-rails (~> 0.2.2)
+  ember-rails
+  ember-source (~> 1.8.1)
+  emblem-rails
   factory_girl_rails (~> 4.4.1)
   faker (~> 1.4.3)
   guard-jslint-on-rails

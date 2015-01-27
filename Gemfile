@@ -10,9 +10,9 @@ gem 'jquery-rails', '~> 3.1.0'
 gem 'jbuilder', '~> 2.0'
 
 # Ember
-gem 'ember-rails', '~> 0.16.1'
-gem 'ember-source', '~> 1.9.1'
-gem 'emblem-rails', '~> 0.2.2'
+gem 'ember-rails'
+gem 'ember-source', '~> 1.8.1'
+gem 'emblem-rails'
 
 
 group :development, :test do
